@@ -1,15 +1,37 @@
-.tabs{
-    color: blue;
-    display: inline;
-    border: 1px;
-    border-color: black;
-}
-.PlayingCard
+body
 {
-    background-color: gray;
-    border-color: black;
-    width: 214px;
-    height: 320px;
-    max-width: 640px;
-    max-height: 960px;
+    background-color: darkgrey;
+}
+img
+{
+    max-width: 100%;
+}
+.paulGamesSidebar
+{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: grey;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidebarButton
+{
+    margin: 5px 0px;
+    padding: 6px 8px 6px 16px;
+    background-color: lightgrey;
+    border: 0px solid white;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+.webpageTab
+{
+    padding: 2px 2px;
+    background-color: lightgray;
+
 }
