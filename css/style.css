@@ -1,37 +1,111 @@
+*
+{
+    font-family: Teko;
+}
+
 body
 {
     background-color: darkgrey;
 }
-img
+
+iframe
 {
-    max-width: 100%;
+    border: 2px solid black;
 }
 .paulGamesSidebar
 {
     height: 100%;
-    width: 200px;
+    width: 10%;
+    min-width: 50px;
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
-    background: grey;
+    left: 2;
+    background: repeating-linear-gradient(
+        45deg,
+        rgb(037,037,037),
+        rgb(037,037,037) 10px,
+        lightgray 10px,
+        lightgray 20px
+    );
     overflow-x: hidden;
     padding-top: 20px;
 }
+#Profile
+{
+    background-color: blue;
+    background-size: auto;
+    max-width: 90%;
+    max-height: 90%;
+    padding: 10%;
+}
+#ProfileName
+{
+    font-size: 2.5vh;
+    text-align: center;
+}
 .sidebarButton
 {
+    text-align: center;
+    font-size: 2vh;
     margin: 5px 0px;
-    padding: 6px 8px 6px 16px;
+    padding: 8px 0;
     background-color: lightgrey;
     border: 0px solid white;
     text-decoration: none;
-    font-size: 25px;
     color: black;
     display: block;
 }
-.webpageTab
+#paulGamesWebpageContainer
 {
-    padding: 2px 2px;
-    background-color: lightgray;
+    display: inline-block;
+    
+    margin-left: 11%;
+    
 
 }
+#paulGameWebpageContainer::before
+{
+    content: '';
+    width: 11%;
+    min-width: 10px;
+    display: inline-block;
+
+}
+.webpageTab
+{
+    width: 100%;
+    padding: 2px 2px;
+    background-color: lightgray;
+}
+.SlideButton
+{
+    border: none;
+    padding: 8px 16px;
+    display: inline-block;
+    position: absolute;
+    vertical-align: middle;
+    height: 200px;
+    padding: 5px;
+}
+.SlideShow
+{
+  
+}
+.Slides,.Slides_02
+{
+    margin-left: 20%;
+    margin-bottom: 1%;
+    max-width: 60%
+}
+.Demo
+{
+    cursor: pointer;
+    display: inline-block;
+    width: 24%;
+}
+.DemoContainer
+{
+    margin-left: 2.5%
+}
+
