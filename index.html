@@ -8,59 +8,115 @@
         <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet"> 
         <script src="Script.js"></script>
     </head>
+    <header>
+        
+    </header>
     <body>
-
-        <div class="paulGamesSidebar">
-            <div id="Profile">
-                <img src="https://www.shareicon.net/data/256x256/2015/12/25/692750_user_512x512.png" alt="ProfilePicture" style="width:100%">
-                <h1 id="ProfileName">Paul Francis</h1>
+        <div class="siteHeader">
+            <div id="nameContainer">
+               <h1 id="Paul" class="name">Paul </h1>
+               <h1 id="Francis" class="name">Francis</h1> 
             </div>
             
-            <h3 class="sidebarButtonList"></h3>
-            <a href="#currentWork" class="sidebarButton">Current Work</a>
-            <a href="#pastWork" class="sidebarButton">Past Work</a>
-            <a href="#contactInfo" class="sidebarButton">Contact Info</a>
+            <div id="headerTabBar">
+                <a href="#welcome" class="headerTabs">Welcome</a>
+                <a href="#currentWork" class="headerTabs">Current Work</a>
+                <a href="#pastWork" class="headerTabs">Past Work</a>
+                
+            </div>
+            
         </div>
+        
         <div id="paulGamesWebpageContainer">
-            <div id="PageWelcome">
-                
-                <h1>Thank you for visiting my website.</h1>
-                <img src="imgs/partDropper/PartDropperImage_01.jpg" alt="image">
-            </div>
-            
-            
-            <div id="webpageTabs">
-                
-            </div>
-            
-                <h2 id="currentWork" class="webpageTab">Current Work</h2>
-                
-                
-                <img src="https://i.pinimg.com/736x/25/48/55/254855a391bd16bc51553071f2765e7e--austria-travel-visit-austria.jpg" alt="ImageofMountain" style="max-width:50%">
-                <h2 id="pastWork" class="webpageTab" >Past Work</h2>
-                <div class="SlideShow">
-                    <img class="Slides" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Clouds_over_the_Atlantic_Ocean.jpg" alt="Ocean">
-                    <img class="Slides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Brazilian_amazon_rainforest.jpg/1200px-Brazilian_amazon_rainforest.jpg" alt="Forest">
-                    <img class="Slides" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Clouds_over_the_Atlantic_Ocean.jpg" alt="Ocean">
-                    <img class="Slides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Brazilian_amazon_rainforest.jpg/1200px-Brazilian_amazon_rainforest.jpg" alt="Forest">
-                    
-                    <!--img class="Demo" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Clouds_over_the_Atlantic_Ocean.jpg"  onclick="ShowImage(Slides,0)">
-                    <img class="Demo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Brazilian_amazon_rainforest.jpg/1200px-Brazilian_amazon_rainforest.jpg"  onclick="ShowImage(Slides,1)"-->
-                    <div class="DemoContainer" >
-                        <img class="Demo" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Clouds_over_the_Atlantic_Ocean.jpg"  onclick="CurrentDiv(1,'Slides')">
-                        <img class="Demo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Brazilian_amazon_rainforest.jpg/1200px-Brazilian_amazon_rainforest.jpg"  onclick="CurrentDiv(2,'Slides')">
-                        <img class="Demo" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Clouds_over_the_Atlantic_Ocean.jpg"  onclick="CurrentDiv(3,'Slides')">
-                        <img class="Demo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Brazilian_amazon_rainforest.jpg/1200px-Brazilian_amazon_rainforest.jpg"  onclick="CurrentDiv(4,'Slides')">
+            <h2 id="welcome" class="webpageTab">Welcome</h2>
+            <div id="pageWelcome">
+                <p id="welcomeParagraph">Hello I'm Paul Francis,<br>
+                    I'm a Game Developer currently looking for work in the game industry.<br>
+                    Here is a list of thins that I have experience with:</p>
+                    <div id="experienceLists">
+                        <ul id="proficientText">
+                            <h3>Proficient:</h3>
+                            <li>Unity</li>
+                            <li>C#</li>
+                            <li>Photoshop</li>
+                            <li>Maya</li>
+                        </ul>
+                        <ul id="familiarText">
+                            <h3>Familiar:</h3>
+                            <li>Unreal Engine</li>
+                            <li>After Effects</li>
+                            <li>Flash</li>
+                            <li>ActionScript</li>
+                            <li>Git</li>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        <ul id="playedAroundWithText">
+                            <h3>Played Around With:</h3>
+                            <li>Google VR Daydream</li>
+                            <li>Ruby</li>
+                            <li>Ruby On Rails</li>
+                        </ul>
                     </div>
                     
-                    <script>ShowDivs(slideIndex,"Slides");</script>
+                <h1>Thank you for visiting my website.</h1>
+                <a href="imgs/PaulFrancisResume_2018.pdf">Resume</a>
+            </div>
+            
+            
+                <h2 id="currentWork" class="webpageTab">Current Work</h2>
+                <h3 class="webpageTab SubTab" >Number Cruncher (working Title)</h3>
+                <p id="numberCruncherParagraph">Number Crunch is a mobile game i’ve been working on recently.
+                    I’ve been developing it in Unity.
+                    It’s a 2d math puzzle game for Android.
+                    Object of the game is to solve multiplication problems using the number squares on screen.
+                    There is a time limit so the player need to be quick.
+                    Right now I have an early prototype that features the core gameplay.
+                    The goal is to publish it on the google play store.
+                    There are still a some features I need to work such as:
+                    - leaderboard: So players can compare scores with others.
+                    - Tutorial: An Interactive way that people can learn how to play the game. Not just a page of text.
+                    This game has a lot of opportunity for expansion. I can easily see different game modes added.
+                    </p>
+                
+                
+                <img id="currentWorkImage" src="imgs/NumberCrunch_01.jpg" alt="ImageofMountain" style="max-width:25%">
+                <h2 id="pastWork" class="webpageTab" >Past Work</h2>
+                <h3 class="webpageTab SubTab" >PartDropper - Unity - Q2 2015</h3>
+                <div class="PartDropperSlideShow">
+                    <img class="PartDropperSlides" src="imgs/partDropper/PartDropperImage_01.jpg" alt="">
+                    <img class="PartDropperSlides" src="imgs/partDropper/PartDropperImage_02.jpg" alt="">
+                    <img class="PartDropperSlides" src="imgs/partDropper/PartDropperImage_04.jpg" alt="">
+                    <img class="PartDropperSlides" src="imgs/partDropper/PartDropperImage_05.jpg" alt="">
+                    <img class="PartDropperSlides" src="imgs/partDropper/PartDropperImage_06.jpg" alt="">
+                    <img class="PartDropperSlides" src="imgs/partDropper/PartDropperImage_07.jpg" alt="">
+                    <div class="PartDropperSlides" style="position:relative; width:100%;height:0px;padding-bottom:56.25%">
+                        <!--iframe style="position:absolute; margin-left: 0%;  left:0; top:0; width:100%; height:100%" src="https://www.youtube.com/embed/-tRBwE86TxM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="max-width:100%"></iframe-->
+                        <iframe style="position:absolute; margin-left: 0%;  left:0; top:0; width:100%; height:100%" src="https://www.youtube.com/embed/hUl75cmnga4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="max-width:100%"></iframe>
+                    </div>
+                    
+                    
+                    <!--img class="PartDropperThumbnails" src=""  onclick="ShowImage(PartDropperSlides,0)">
+                    <img class="PartDropperThumbnails" src=""  onclick="ShowImage(PartDropperSlides,1)"-->
+                    <div id="PartDropperThumbnailsContainer" >
+                        <img class="PartDropperThumbnails" src="imgs/partDropper/PartDropperImage_01.jpg"  onclick="CurrentDiv(1,'PartDropperSlides')">
+                        <img class="PartDropperThumbnails" src="imgs/partDropper/PartDropperImage_02.jpg"  onclick="CurrentDiv(2,'PartDropperSlides')">
+                        <img class="PartDropperThumbnails" src="imgs/partDropper/PartDropperImage_04.jpg"  onclick="CurrentDiv(3,'PartDropperSlides')">
+                        <img class="PartDropperThumbnails" src="imgs/partDropper/PartDropperImage_05.jpg"  onclick="CurrentDiv(4,'PartDropperSlides')">
+                        <img class="PartDropperThumbnails" src="imgs/partDropper/PartDropperImage_06.jpg"  onclick="CurrentDiv(5,'PartDropperSlides')">
+                        <img class="PartDropperThumbnails" src="imgs/partDropper/PartDropperImage_07.jpg"  onclick="CurrentDiv(6,'PartDropperSlides')">
+                        <img class="PartDropperThumbnails" src="imgs/partDropper/PartDropperVideoThumbNail_01.jpg" onclick="CurrentDiv(7,'PartDropperSlides')" alt="">
+                    </div>
+                    
+                    <script>ShowDivs(slideIndex,"PartDropperSlides");</script>
                 </div>
                 
-                <!--<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Clouds_over_the_Atlantic_Ocean.jpg" alt="Ocean">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Brazilian_amazon_rainforest.jpg/1200px-Brazilian_amazon_rainforest.jpg" alt="Forest">-->
-                <div style="position:relative; width:100%;height:0px;padding-bottom:56.25%">
+                <!--<img src="" alt="">
+                <img src="" alt="Forest">-->
+                <!--div style="position:relative; width:100%;height:0px;padding-bottom:56.25%">
                     <iframe style="position:absolute; margin-left: 12.5%;  left:0; top:0; width:75%; height:75%" src="https://www.youtube.com/embed/-tRBwE86TxM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="max-width:100%"></iframe>
-                </div>
+                </div-->
                 
                 <h2 id="contactInfo" class="webpageTab">Contact Info</h2>
                 
@@ -70,6 +126,3 @@
         </div>
     </body>
 </html>
-<script>
-    
-</script>

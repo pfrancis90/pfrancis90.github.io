@@ -1,81 +1,132 @@
 *
 {
     font-family: Teko;
+    color: white;
 }
 
 body
 {
-    background-color: darkgrey;
+    background-color: grey;
+    
 }
-
-iframe
+#Paul
 {
-    border: 2px solid black;
+    color: red;
+    margin-left: 20%;
 }
-.paulGamesSidebar
+#Francis
 {
-    height: 100%;
-    width: 10%;
-    min-width: 50px;
+    color: white
+}
+.name
+{
+    margin-left: 0.25%;
+    font-size: 2.5vh;
+    display: inline;
+}
+#nameContainer
+{
+    width: 75%;
+}
+.siteHeader
+{
+    height: 4%;
+    min-height: 20px;
+    width: 99%;
     position: fixed;
     z-index: 1;
-    top: 0;
-    left: 2;
-    background: repeating-linear-gradient(
+    top: -5px;
+    background: linear-gradient(slategray,lightslategray);
+    /*background: repeating-linear-gradient(
         45deg,
         rgb(037,037,037),
         rgb(037,037,037) 10px,
         lightgray 10px,
         lightgray 20px
-    );
+    );*/
+    border: 5px solid black;
     overflow-x: hidden;
-    padding-top: 20px;
+    display: flex;
+    border-radius: 0 0 25px 25px;
 }
-#Profile
+#headerTabBar
 {
-    background-color: blue;
-    background-size: auto;
-    max-width: 90%;
-    max-height: 90%;
-    padding: 10%;
+    margin-top: 0;
+    z-index: 1;
+    margin-left: -20%;
+    flex: 1;
+    float: left;
 }
-#ProfileName
-{
-    font-size: 2.5vh;
-    text-align: center;
-}
-.sidebarButton
+.headerTabs
 {
     text-align: center;
+    padding: 0.62% 1%;
+    margin-left: 1%;
     font-size: 2vh;
-    margin: 5px 0px;
-    padding: 8px 0;
     background-color: lightgrey;
-    border: 0px solid white;
     text-decoration: none;
     color: black;
-    display: block;
+    display: inline-block;
 }
 #paulGamesWebpageContainer
 {
     display: inline-block;
-    
-    margin-left: 11%;
-    
+    margin: 1% 15%;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    background-color: darkgray;
 
 }
-#paulGameWebpageContainer::before
+#pageWelcome
 {
-    content: '';
-    width: 11%;
-    min-width: 10px;
+    margin-left: 12%;
+    font-size: 1.75vh;
+}
+#welcomeParagraph
+{
+    font-size: 2vh;
+}
+#proficientText,#familiarText,#playedAroundWithText
+{
     display: inline-block;
-
+    width: 320px;
+    vertical-align: top;
 }
 .webpageTab
 {
     width: 100%;
-    padding: 2px 2px;
+    margin-bottom: 0px;
+    padding:  2px 2px;
+    background-color: gray;
+    background: repeating-linear-gradient(
+        45deg,
+        rgb(037,037,037),
+        rgb(037,037,037) 10px,
+        rgb(80,80,80) 10px,
+        rgb(80,80,80) 20px
+    );
+}
+#numberCruncherParagraph
+{
+    font-size: 2.25vh;
+    margin-left: 1%;
+    margin-right: 50%;
+}
+#currentWorkImage
+{
+    margin-top: -20%;
+    margin-left: 60%;
+}
+.webpageTab.SubTab
+{
+    margin-top: 0;
+    background: repeating-linear-gradient(
+        -45deg,
+        rgb(160,160,160),
+        rgb(160,160,160) 10px,
+        grey 10px,
+        grey 20px
+    );
     background-color: lightgray;
 }
 .SlideButton
@@ -88,15 +139,36 @@ iframe
     height: 200px;
     padding: 5px;
 }
-.SlideShow
+.PartDropperSlideShow
 {
-  
+  max-width: 90%;
+  margin: 2.5%;
+  padding: 1% 1% 1% 1%;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 2.5%;
+}
+.PartDropperSlides
+{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0.5%;
 }
 .Slides,.Slides_02
 {
     margin-left: 20%;
     margin-bottom: 1%;
     max-width: 60%
+}
+#PartDropperThumbnailsContainer
+{
+    margin-left: 1%;
+}
+.PartDropperThumbnails
+{
+    cursor: pointer;
+    display: inline-block;
+    width:14%;
 }
 .Demo
 {
