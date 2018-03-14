@@ -28,12 +28,21 @@
         </div>
         
         <div id="paulGamesWebpageContainer">
-            <h2 id="welcome" class="webpageTab">Welcome</h2>
-            <div id="pageWelcome">
-                <p id="welcomeParagraph">Hello I'm Paul Francis,<br>
-                    I'm a Game Developer currently looking for work in the game industry.<br>
-                    Here is a list of thins that I have experience with:</p>
-                    <div id="experienceLists">
+            <div id="welcome" class="webpageTab">
+                <h2 style="padding: 0px 0px 0px 5px;">Welcome</h2>
+                
+                </div>
+                <div id="welcomeContainer">
+                    <div id="leftWelcome">
+                        <p id="welcomeParagraph">Hello I'm Paul Francis,<br>
+                    I'm a Game Developer currently looking for work in the game industry.</p>
+                    <h1>Thank you for visiting my website.</h1>
+                    <h3>If you want to know more about me check out my resume:</h3>
+                    <a href="imgs/PaulFrancisResume_2018.pdf">Resume</a>
+                    </div>
+                    <div id="rightWelcome">
+                        <div id="experienceLists">
+                            <h2 style="font-size: 1.5vw;">Experience List:</h2>
                         <ul id="proficientText">
                             <h3>Proficient:</h3>
                             <li>Unity</li>
@@ -59,31 +68,57 @@
                             <li>Ruby On Rails</li>
                         </ul>
                     </div>
+                    </div>
+                </div>
+            <div id="pageWelcome">
+                
                     
-                <h1>Thank you for visiting my website.</h1>
-                <a href="imgs/PaulFrancisResume_2018.pdf">Resume</a>
+                    
+                
             </div>
             
             
-                <h2 id="currentWork" class="webpageTab">Current Work</h2>
-                <h3 class="webpageTab SubTab" >Number Cruncher (working Title)</h3>
-                <p id="numberCruncherParagraph">Number Crunch is a mobile game i’ve been working on recently.
-                    I’ve been developing it in Unity.
-                    It’s a 2d math puzzle game for Android.
-                    Object of the game is to solve multiplication problems using the number squares on screen.
-                    There is a time limit so the player need to be quick.
-                    Right now I have an early prototype that features the core gameplay.
-                    The goal is to publish it on the google play store.
-                    There are still a some features I need to work such as:
-                    - leaderboard: So players can compare scores with others.
-                    - Tutorial: An Interactive way that people can learn how to play the game. Not just a page of text.
-                    This game has a lot of opportunity for expansion. I can easily see different game modes added.
-                    </p>
+                <div id="currentWork" class="webpageTab">
+                    <h2 style="padding: 0px 0px 0px 5px;">Current Work</h2>
+                   <h3 class="SubTab" style="padding: 5px 0px 0px 5px;">Number Cruncher (working Title)</h3>
+                </div>
+                    
+                    
+                
+                <div id="currentWorkContainer">
+                    <div id="leftCurrentWork">
+                        <p class="numberCruncherText" style="text-indent: 10%">   Number Crunch is a mobile game i’ve been working on recently.
+                        I’ve been developing it in Unity.
+                        It’s a 2d math puzzle game for Android.
+                        Object of the game is to solve multiplication problems using the number squares on screen.
+                        There is a time limit so the player need to be quick.
+                        Right now I have an early prototype that features the core gameplay.
+                        The goal is to publish it on the google play store.<br>
+                        There are still a some features I need to work on such as:
+                        </p>
+                        <ul class="numberCruncherText">
+                            <li>leaderboard: So players can compare scores with others.</li>
+                            <li>Tutorial: An Interactive way that people can learn how to play the game. Not just a page of text.</li>
+                        </ul>
+                        <p class="numberCruncherText" >
+                        This game has a lot of opportunity for expansion. I can easily see different game modes added.
+                        </p>
+                    </div>
+                    <div id="rightCurrentWork">
+                         <img id="currentWorkImage" src="imgs/NumberCrunch_01.JPG" alt="ImageofMountain" style="max-width:60%">
+                    </div>
+                    
                 
                 
-                <img id="currentWorkImage" src="imgs/NumberCrunch_01.JPG" alt="ImageofMountain" style="max-width:25%">
-                <h2 id="pastWork" class="webpageTab" >Past Work</h2>
-                <h3 class="webpageTab SubTab" >PartDropper - Unity - Q2 2015</h3>
+                   
+                </div>
+                
+
+                <div id="pastWork" class="webpageTab" >
+                    <h2 style="padding: 0px 0px 0px 5px;">Past Work</h2>
+                    <h3 class="SubTab" style="padding: 5px 0px 0px 5px;">PartDropper - Unity - Q2 2015</h3>
+                </div>
+                
                 <div class="PartDropperSlideShow">
                     <img class="PartDropperSlides" src="imgs/partDropper/PartDropperImage_01.jpg" alt="">
                     <img class="PartDropperSlides" src="imgs/partDropper/PartDropperImage_02.jpg" alt="">
@@ -110,19 +145,22 @@
                     </div>
                     
                     <script>ShowDivs(slideIndex,"PartDropperSlides");</script>
+                    
                 </div>
+                <p id="partDropperText">Part Dropper is a 2D action puzzle game. The goal of the game is to catch parts that are shot into the air and then drop them into their construction area. 
+                        Once all the parts are place Budd-E will go over and start constructing a vehicle. If you miss the part will fall on the ground and break. Budd-E will then go over and sweep up the part then go to the recycle bin and dump it. 
+                        The game ends once the timer runs out afterward your score will be added up based on how you place the parts and how many cars you’ve completed. You can then submit your score to the games leaderboard. 
+                        During development I would with two artist(illustrator and animator) to create the assets for the game.
+                </p>
                 
                 <!--<img src="" alt="">
                 <img src="" alt="Forest">-->
                 <!--div style="position:relative; width:100%;height:0px;padding-bottom:56.25%">
                     <iframe style="position:absolute; margin-left: 12.5%;  left:0; top:0; width:75%; height:75%" src="https://www.youtube.com/embed/-tRBwE86TxM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="max-width:100%"></iframe>
                 </div-->
-                
-                <h2 id="contactInfo" class="webpageTab">Contact Info</h2>
-                
-            
-            
-            
+                <div id="pastWork" class="webpageTab" >
+                </div>
         </div>
+        
     </body>
 </html>
