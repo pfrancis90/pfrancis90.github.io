@@ -8,41 +8,49 @@
         <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet"> 
         <script src="Script.js"></script>
     </head>
-    <header>
-        
-    </header>
     <body>
         <div class="siteHeader">
             <div id="nameContainer">
                <h1 id="Paul" class="name">Paul </h1>
                <h1 id="Francis" class="name">Francis</h1> 
+               <!--h2 class="name" style="font-size: 3vmin; margin-left: 5%;">Game Developer</h2-->
             </div>
             
-            <div id="headerTabBar">
+            <!--div id="headerTabBar">
                 <a href="#welcome" class="headerTabs">Welcome</a>
                 <a href="#currentWork" class="headerTabs">Current Work</a>
                 <a href="#pastWork" class="headerTabs">Past Work</a>
                 
-            </div>
+            </div-->
             
         </div>
         
         <div id="paulGamesWebpageContainer">
             <div id="welcome" class="webpageTab">
-                <h2 style="padding: 0px 0px 0px 5px;">Welcome</h2>
+                <h2 class="webpageTopTabFont">Welcome</h2>
                 
                 </div>
                 <div id="welcomeContainer">
                     <div id="leftWelcome">
-                        <p id="welcomeParagraph">Hello I'm Paul Francis,<br>
-                    I'm a Game Developer currently looking for work in the game industry.</p>
-                    <h1>Thank you for visiting my website.</h1>
-                    <h3>If you want to know more about me check out my resume:</h3>
-                    <a href="imgs/PaulFrancisResume_2018.pdf">Resume</a>
+                        <p class="welcomeParagraph">Hello I'm Paul Francis,<br>
+                        I'm a Game Developer currently looking for work in the game industry.
+                        I specialize in designing, programming, and prototyping games.
+                        I mostly use Unity and C# to develop my games, but I also have experience in other programs.
+                        Currently I’ve been working on a mobile game for android and I’m planning to release it soon.
+                        I’m located in the San Francisco Area, but I’m willing to move for a job.
+                        </p>
+                        <h3 class="welcomeParagraph">If you want to know more about me check out my <a href="imgs/PaulFrancisResume_2018.png">Resume.</a></h3>
+                        <h3 class="welcomeParagraph">Or</h3>
+                        <h2 class="welcomeParagraph">Contact me At - <a href="mailto:paulgames90@gmail.com">paulGames90@gmail.com</a></h2>
+                        <p class="welcomeParagraph">Below is collection of my current and past work.
+                        Please take and look and let me know what you think.
+                        </p>
+                        <h1 class="welcomeParagraph">Thank you for visiting my website.</h1>
+                        <a href=""></a>
                     </div>
                     <div id="rightWelcome">
                         <div id="experienceLists">
-                            <h2 style="font-size: 1.5vw;">Experience List:</h2>
+                            <h2 style="font-size: 3.25vmin;">Experience List:</h2>
                         <ul id="proficientText">
                             <h3>Proficient:</h3>
                             <li>Unity</li>
@@ -79,8 +87,8 @@
             
             
                 <div id="currentWork" class="webpageTab">
-                    <h2 style="padding: 0px 0px 0px 5px;">Current Work</h2>
-                   <h3 class="SubTab" style="padding: 5px 0px 0px 5px;">Number Cruncher (working Title)</h3>
+                    <h2 class="webpageTopTabFont">Current Work</h2>
+                   <h3 class="SubTab" style="padding: 5px 0px 0px 5px;">Number Cruncher (working Title) - Unity</h3>
                 </div>
                     
                     
@@ -105,7 +113,7 @@
                         </p>
                     </div>
                     <div id="rightCurrentWork">
-                         <img id="currentWorkImage" src="imgs/NumberCrunch_01.JPG" alt="ImageofMountain" style="max-width:60%">
+                         <img id="currentWorkImage" src="imgs/NumberCrunch_01.JPG" alt="ImageofMountain">
                     </div>
                     
                 
@@ -115,10 +123,9 @@
                 
 
                 <div id="pastWork" class="webpageTab" >
-                    <h2 style="padding: 0px 0px 0px 5px;">Past Work</h2>
+                    <h2 class="webpageTopTabFont">Past Work</h2>
                     <h3 class="SubTab" style="padding: 5px 0px 0px 5px;">PartDropper - Unity - Q2 2015</h3>
                 </div>
-                
                 <div class="PartDropperSlideShow">
                     <img class="PartDropperSlides" src="imgs/partDropper/PartDropperImage_01.jpg" alt="">
                     <img class="PartDropperSlides" src="imgs/partDropper/PartDropperImage_02.jpg" alt="">
@@ -145,9 +152,11 @@
                     </div>
                     
                     <script>ShowDivs(slideIndex,"PartDropperSlides");</script>
+                
+                
                     
                 </div>
-                <p id="partDropperText">Part Dropper is a 2D action puzzle game. The goal of the game is to catch parts that are shot into the air and then drop them into their construction area. 
+                <p class="partDropperText">Part Dropper is a 2D action puzzle game. The goal of the game is to catch parts that are shot into the air and then drop them into their construction area. 
                         Once all the parts are place Budd-E will go over and start constructing a vehicle. If you miss the part will fall on the ground and break. Budd-E will then go over and sweep up the part then go to the recycle bin and dump it. 
                         The game ends once the timer runs out afterward your score will be added up based on how you place the parts and how many cars you’ve completed. You can then submit your score to the games leaderboard. 
                         During development I would with two artist(illustrator and animator) to create the assets for the game.
@@ -158,8 +167,44 @@
                 <!--div style="position:relative; width:100%;height:0px;padding-bottom:56.25%">
                     <iframe style="position:absolute; margin-left: 12.5%;  left:0; top:0; width:75%; height:75%" src="https://www.youtube.com/embed/-tRBwE86TxM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="max-width:100%"></iframe>
                 </div-->
-                <div id="pastWork" class="webpageTab" >
+                <h3 class="SubTab" style="padding: 5px 0px 0px 5px;margin-top:0%;">The Choice - Unity - Q4 2013</h3>
+                <div class="theDecisionSlideshow">
+                    <img class="theDecisionSlides" src="imgs/theDecision/DecisionImage_01.png" alt="">
+                    <img class="theDecisionSlides" src="imgs/theDecision/DecisionImage_02.png" alt="">
+                    <img class="theDecisionSlides" src="imgs/theDecision/DecisionImage_03.png" alt="">
+                    <img class="theDecisionSlides" src="imgs/theDecision/DecisionImage_04.png" alt="">
+                    <img class="theDecisionSlides" src="imgs/theDecision/DecisionImage_05.png" alt="">
+                    <img class="theDecisionSlides" src="imgs/theDecision/DecisionImage_06.png" alt="">
+                    <div class="theDecisionSlides" style="position:relative; width:100%;height:0px;padding-bottom:56.25%">
+                        <!--iframe style="position:absolute; margin-left: 0%;  left:0; top:0; width:100%; height:100%" src="https://www.youtube.com/embed/-tRBwE86TxM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="max-width:100%"></iframe-->
+                        <iframe style="position:absolute; margin-left: 0%;  left:0; top:0; width:100%; height:100%" src="https://www.youtube.com/embed/rlypko-LqSc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="max-width:100%"></iframe>
+                    </div>
+                    
+                    
+                    <!--img class="theDecisionThumbnails" src=""  onclick="ShowImage(theDecisionSlides,0)">
+                    <img class="theDecisionThumbnails" src=""  onclick="ShowImage(theDecisionSlides,1)"-->
+                    <div id="theDecisionThumbnailsContainer" >
+                        <img class="theDecisionThumbnails" src="imgs/theDecision/DecisionImage_01.png"  onclick="CurrentDiv(1,'theDecisionSlides')">
+                        <img class="theDecisionThumbnails" src="imgs/theDecision/DecisionImage_02.png"  onclick="CurrentDiv(2,'theDecisionSlides')">
+                        <img class="theDecisionThumbnails" src="imgs/theDecision/DecisionImage_03.png"  onclick="CurrentDiv(3,'theDecisionSlides')">
+                        <img class="theDecisionThumbnails" src="imgs/theDecision/DecisionImage_04.png"  onclick="CurrentDiv(4,'theDecisionSlides')">
+                        <img class="theDecisionThumbnails" src="imgs/theDecision/DecisionImage_05.png"  onclick="CurrentDiv(5,'theDecisionSlides')">
+                        <img class="theDecisionThumbnails" src="imgs/theDecision/DecisionImage_06.png"  onclick="CurrentDiv(6,'theDecisionSlides')">
+                        <img class="theDecisionThumbnails" src="imgs/theDecision/DecisionThumbnail.jpg" onclick="CurrentDiv(7,'theDecisionSlides')" alt="">
+                    </div>
+                    
+                    <script>ShowDivs(slideIndex,"theDecisionSlides");</script>
                 </div>
+                <p class="partDropperText">This was an Action Role Playing Game I made as final project for a programming class I took while going to The Academy of Art. 
+                    In the game you play a magical being capable of transforming into different classes(assassin, warrior, and archer). 
+                    Each class has a special ability that you can use when you switch to them. Assassin can backstab, warrior is a tank, and the archer can shoot enemies from a distance. 
+                    The game features 5 locations: cave(assassins hideout), forest(archers hang out), castle(where the warriors guard), main town(where you accept quests and shop), and an over world. 
+                    Throughout the game you will also be faced with making decision based on the quests you accept. 
+                    These choices will give you a different ending based on what you chose. </p>
+                <div id="pastWork" class="webpageTab" >
+                    <a href="#">^ Go back to the top ^</a>
+                </div>
+                
         </div>
         
     </body>

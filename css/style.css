@@ -2,8 +2,6 @@
 {
     font-family: Teko;
     color: white;
-    -webkit-text-stroke-width: thin;
-    -webkit-text-stroke-color: black;
 }
 
 body
@@ -12,6 +10,10 @@ body
   /*background-color: grey;*/
     background-image: url("backgroundcolorBlocks.PNG");
     
+}
+a
+{
+    color: deepskyblue;
 }
 #Paul
 {
@@ -36,15 +38,17 @@ body
 }
 .siteHeader
 {
-    height: 5%;
-    min-height: 20px;
-    width: 105%;
-    margin-left: -3%;
-    position: fixed;
+    height: 10%;
+    min-width: 333px;
+    min-height: 25px;
+    margin: 0% 10% 0% 10%;
+    background-color: black;
+    /*width: 90%;*/
+    margin-top: -0.45%;
+    /*position: fixed;
     z-index: 1;
-    
-    top: -5px;
-    background: linear-gradient(slategray,lightslategray);
+    */
+    /*background: linear-gradient(slategray,lightslategray);*/
     /*background: repeating-linear-gradient(
         45deg,
         rgb(037,037,037),
@@ -53,16 +57,15 @@ body
         lightgray 20px
     );*/
     /*border: 5px solid black;*/
-    display: flex;
     /*border-radius: 0 0 25px 25px;*/
 }
 #headerTabBar
 {
-    margin-top: 0;
+    /*margin-top: 0;
     z-index: 1;
     margin-left: -20%;
     flex: 1;
-    float: left;
+    float: left;*/
 }
 .headerTabs
 {
@@ -78,7 +81,8 @@ body
 #paulGamesWebpageContainer
 {
     display: inline-block;
-    margin: 1% 5%;
+    margin: 0% 10% 0% 10%;
+    min-width: 333px;
     /*border-left: 5px solid black;
     border-right: 5px solid black;*/
     background-color:rgb(32,32,32);
@@ -87,8 +91,8 @@ body
 }
 #backgroundImage
 {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     z-index: -1;
 }
 #pageWelcome
@@ -96,14 +100,15 @@ body
     margin-left: 12%;
     font-size: 1.75vh;
 }
-#welcomeParagraph
+.welcomeParagraph
 {
-    font-size: 2vh;
+    font-size: 3vmin;
 }
 #proficientText,#familiarText,#playedAroundWithText
 {
     margin-left: 5%;
-    font-size:calc(12px + 1vw);
+    font-size: 2vh;
+    font-size: 3vmin;
     display: inline-block;
     width: 200px;
     vertical-align: top;
@@ -111,8 +116,9 @@ body
 .webpageTab
 {
     width: 100%;
+    clear:both;
     margin-bottom: 0px;
-    padding: 10px 0px 0px 0px;
+    padding: 1px 0px 0px 0px;
     background-color: gray;
     background: repeating-linear-gradient(
         45deg,
@@ -122,42 +128,51 @@ body
         rgb(80,80,80) 20px
     );
 }
+.webpageTopTabFont
+{
+    padding: 0px 0px 0px 5px;
+    color: red;
+    font-size: 3vh;
+}
 #welcomeContainer,#currentWorkContainer
 {
     width: 86%;
     min-height: 45px;
+    min-width:  300px;
     margin: auto;
-    margin-top: 1%;
-    margin-bottom: 43%;
 
 }
 #leftWelcome,#leftCurrentWork
 {
     width: 50%;
     float: left;
-    background-color: crimson;
+    /*background-color: crimson;*/
 
 }
 #rightWelcome,#rightCurrentWork
 {
     width: 50%;
+    max-height: 50%;
     float: left;
-    background-color: blue;
+    /*background-color: blue;*/
 }
 .numberCruncherText
 {
-    font-size: 1.75vw;
+    font-size: 2vh;
+    font-size: 3vmin;
 }
 #currentWorkImage
 {
    
-    width: 57%;
-    margin-top: 0%;
-    margin-left: 25%;
+    width: 100%;
+    max-width: 540px;
+    padding-right: 1%;
+    padding-left: 10%;
 }
 .SubTab
 {
     margin-top: -1%;
+    font-size: 1.75vh;
     padding: 5px 0px 0px 0px;
     background: repeating-linear-gradient(
         -45deg,
@@ -178,7 +193,7 @@ body
     height: 200px;
     padding: 5px;
 }
-.PartDropperSlideShow
+.PartDropperSlideShow,.theDecisionSlideshow
 {
   max-width: 90%;
   margin: 2.5% 10% 0 10%;
@@ -187,33 +202,35 @@ body
   border: 5px solid black;*/
   border-radius: 2.5%;
 }
-.PartDropperSlides
+.PartDropperSlides,.theDecisionSlides
 {
     width: 100%;
     max-width: 100%;
     margin-bottom: 0.5%;
     
 }
-.Slides,.Slides_02
-{
-    margin-left: 20%;
-    margin-bottom: 1%;
-    max-width: 60%
-}
-#PartDropperThumbnailsContainer
+
+#PartDropperThumbnailsContainer,#theDecisionThumbnailsContainer
 {
     margin-left: 1%;
 }
-.PartDropperThumbnails
+.PartDropperThumbnails,.theDecisionThumbnails
 {
     cursor: pointer;
     display: inline-block;
     width:14%;
 }
-#partDropperText
+.partDropperText
 {
     margin: 0 10%;
-    font-size: 1.75vw;
+    font-size: 2vh;
+    font-size: 3vmin;
+}
+/*.Slides,.Slides_02
+{
+    margin-left: 20%;
+    margin-bottom: 1%;
+    max-width: 60%
 }
 .Demo
 {
@@ -224,5 +241,5 @@ body
 .DemoContainer
 {
     margin-left: 2.5%
-}
+}*/
 
