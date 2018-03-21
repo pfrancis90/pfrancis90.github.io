@@ -32,34 +32,28 @@
                 </div>
                 <div id="welcomeContainer">
                     <div id="leftWelcome">
-                        <p class="welcomeParagraph">Hello I'm Paul Francis,<br>
-                        I'm a Game Developer currently looking for work in the game industry.
-                        I specialize in designing, programming, and prototyping games.
-                        I mostly use Unity and C# to develop my games, but I also have experience in other programs.
-                        Currently I’ve been working on a mobile game for android and I’m planning to release it soon.
-                        I’m located in the San Francisco Area, but I’m willing to move for a job.
+                        <p class="welcomeParagraph" >I’m a Game Designer and Developer looking for a studio position in the game industry as a Designer or Scripter. 
+                            I specialize in designing, programming, and prototyping games. 
+                            I’m fluent with Unity and C# and also have experience in other development tools. 
+                            Currently I’m working on a indie mobile game project for android that I will be publishing it soon. 
+                            I’m located in the San Francisco Area, but I’m willing to move for a job.
                         </p>
-                        <h3 class="welcomeParagraph">If you want to know more about me check out my <a href="imgs/PaulFrancisResume_2018.png">Resume.</a></h3>
-                        <h3 class="welcomeParagraph">Or</h3>
-                        <h2 class="welcomeParagraph">Contact me At - <a href="mailto:paulgames90@gmail.com">paulGames90@gmail.com</a></h2>
-                        <p class="welcomeParagraph">Below is collection of my current and past work.
-                        Please take and look and let me know what you think.
-                        </p>
-                        <h1 class="welcomeParagraph">Thank you for visiting my website.</h1>
-                        <a href=""></a>
+                        <a class="linkButton" href="imgs/PaulFrancisResume_2018.png">[Resume]</a>
+                        <a class="linkButton" href="mailto:paulgames90@gmail.com">[Contact Me]</a>
+                        <p class="welcomeParagraph" >I look forward to hearing from you.<br/> Below is a portfolio of my current and past work.</p>
                     </div>
                     <div id="rightWelcome">
                         <div id="experienceLists">
-                            <h2 style="font-size: 3.25vmin;">Experience List:</h2>
+                            <h2 style="font-size: 3.25vmin; margin-left:5%;">Experience List:</h2>
                         <ul id="proficientText">
-                            <h3>Proficient:</h3>
+                            <h3>Fluent:</h3>
                             <li>Unity</li>
                             <li>C#</li>
                             <li>Photoshop</li>
                             <li>Maya</li>
                         </ul>
                         <ul id="familiarText">
-                            <h3>Familiar:</h3>
+                            <h3>Experienced:</h3>
                             <li>Unreal Engine</li>
                             <li>After Effects</li>
                             <li>Flash</li>
@@ -70,7 +64,7 @@
                             <li>CSS</li>
                         </ul>
                         <ul id="playedAroundWithText">
-                            <h3>Played Around With:</h3>
+                            <h3>Learning:</h3>
                             <li>Google VR Daydream</li>
                             <li>Ruby</li>
                             <li>Ruby On Rails</li>
@@ -95,7 +89,7 @@
                 
                 <div id="currentWorkContainer">
                     <div id="leftCurrentWork">
-                        <p class="numberCruncherText" style="text-indent: 10%">   Number Crunch is a mobile game i’ve been working on recently.
+                        <p class="numberCruncherText" style="text-indent: 10%">   Number Cruncher is a mobile game i’ve been working on recently.
                         I’ve been developing it in Unity.
                         It’s a 2d math puzzle game for Android.
                         Object of the game is to solve multiplication problems using the number squares on screen.
@@ -113,7 +107,34 @@
                         </p>
                     </div>
                     <div id="rightCurrentWork">
-                         <img id="currentWorkImage" src="imgs/NumberCrunch_01.JPG" alt="ImageofMountain">
+                         <!--img id="currentWorkImage" src="imgs/NumberCrunch_01.JPG" alt="ImageofMountain"-->
+                         <div class="NumberCruncherSlideShow">
+                            <img class="NumberCruncherSlides" src="imgs/numberCruncher/NumberCruncherImg_01.jpg" alt="">
+                            <img class="NumberCruncherSlides" src="imgs/numberCruncher/NumberCruncherImg_02.jpg" alt="">
+                            <img class="NumberCruncherSlides" src="imgs/numberCruncher/NumberCruncherImg_03.jpg" alt="">
+                            <img class="NumberCruncherSlides" src="imgs/numberCruncher/NumberCruncherImg_04.jpg" alt="">
+                            <img class="NumberCruncherSlides" src="imgs/numberCruncher/NumberCruncherImg_05.jpg" alt="">
+                            <img class="NumberCruncherSlides" src="imgs/numberCruncher/NumberCruncherImg_06.jpg" alt="">
+                            <div class="NumberCruncherSlides" style="position:relative; width:100%;height:0px;padding-bottom:175%">
+                                <!--iframe style="position:absolute; margin-left: 0%;  left:0; top:0; width:100%; height:100%" src="https://www.youtube.com/embed/-tRBwE86TxM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="max-width:100%"></iframe-->
+                                <iframe style="position:absolute; margin-left: 0%;  left:0; top:0; width:100%; height:100%" src="https://www.youtube.com/embed/bPK4-5VPqn0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="max-width:100%"></iframe>
+                            </div>
+                    
+                    
+                            <!--img class="NumberCruncherThumbnails" src=""  onclick="ShowImage(NumberCruncherSlides,0)">
+                            <img class="NumberCruncherThumbnails" src=""  onclick="ShowImage(NumberCruncherSlides,1)"-->
+                            <div id="NumberCruncherThumbnailsContainer" >
+                                <img class="NumberCruncherThumbnails" src="imgs/numberCruncher/NumberCruncherImg_01.jpg"  onclick="CurrentDiv(1,'NumberCruncherSlides')">
+                                <img class="NumberCruncherThumbnails" src="imgs/numberCruncher/NumberCruncherImg_02.jpg"  onclick="CurrentDiv(2,'NumberCruncherSlides')">
+                                <img class="NumberCruncherThumbnails" src="imgs/numberCruncher/NumberCruncherImg_03.jpg"  onclick="CurrentDiv(3,'NumberCruncherSlides')">
+                                <img class="NumberCruncherThumbnails" src="imgs/numberCruncher/NumberCruncherImg_04.jpg"  onclick="CurrentDiv(4,'NumberCruncherSlides')">
+                                <img class="NumberCruncherThumbnails" src="imgs/numberCruncher/NumberCruncherImg_05.jpg"  onclick="CurrentDiv(5,'NumberCruncherSlides')">
+                                <img class="NumberCruncherThumbnails" src="imgs/numberCruncher/NumberCruncherImg_06.jpg"  onclick="CurrentDiv(6,'NumberCruncherSlides')">
+                                <img class="NumberCruncherThumbnails" src="imgs/numberCruncher/NumberCruncherImg_07.jpg" onclick="CurrentDiv(7,'NumberCruncherSlides')" alt="">
+                            </div>
+                            
+                            <script>ShowDivs(slideIndex,"NumberCruncherSlides");</script>
+                        </div>
                     </div>
                     
                 
@@ -152,10 +173,8 @@
                     </div>
                     
                     <script>ShowDivs(slideIndex,"PartDropperSlides");</script>
-                
-                
-                    
                 </div>
+                
                 <p class="partDropperText">Part Dropper is a 2D action puzzle game. The goal of the game is to catch parts that are shot into the air and then drop them into their construction area. 
                         Once all the parts are place Budd-E will go over and start constructing a vehicle. If you miss the part will fall on the ground and break. Budd-E will then go over and sweep up the part then go to the recycle bin and dump it. 
                         The game ends once the timer runs out afterward your score will be added up based on how you place the parts and how many cars you’ve completed. You can then submit your score to the games leaderboard. 

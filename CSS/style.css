@@ -15,10 +15,14 @@ a
 {
     color: deepskyblue;
 }
+p
+{
+    text-indent: 10%;
+}
 #Paul
 {
     color: red;
-    margin-left: 5%;
+    margin-left: 0.5%;
 }
 #Francis
 {
@@ -102,6 +106,7 @@ a
 }
 .welcomeParagraph
 {
+    margin-top: 10%;
     font-size: 3vmin;
 }
 #proficientText,#familiarText,#playedAroundWithText
@@ -141,6 +146,21 @@ a
     min-width:  300px;
     margin: auto;
 
+}
+.linkButton
+{
+    margin-left: 25%;
+    margin-bottom: 5%;
+    font-size: 3vmin;
+    text-decoration: none;
+    padding: 3px 7px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.linkButton:hover
+{
+    background-color: lightgray;
+    color:black;
 }
 #leftWelcome,#leftCurrentWork
 {
@@ -193,7 +213,7 @@ a
     height: 200px;
     padding: 5px;
 }
-.PartDropperSlideShow,.theDecisionSlideshow
+.PartDropperSlideShow,.theDecisionSlideshow,.NumberCruncherSlideShow
 {
   max-width: 90%;
   margin: 2.5% 10% 0 10%;
@@ -202,7 +222,7 @@ a
   border: 5px solid black;*/
   border-radius: 2.5%;
 }
-.PartDropperSlides,.theDecisionSlides
+.PartDropperSlides,.theDecisionSlides,.NumberCruncherSlides
 {
     width: 100%;
     max-width: 100%;
@@ -210,15 +230,19 @@ a
     
 }
 
-#PartDropperThumbnailsContainer,#theDecisionThumbnailsContainer
+#PartDropperThumbnailsContainer,#theDecisionThumbnailsContainer,#NumberCruncherThumbnailsContainer
 {
     margin-left: 1%;
 }
-.PartDropperThumbnails,.theDecisionThumbnails
+.PartDropperThumbnails,.theDecisionThumbnails,.NumberCruncherThumbnails
 {
     cursor: pointer;
     display: inline-block;
     width:14%;
+}
+.NumberCruncherThumbnails
+{
+    width: 13.75%;
 }
 .partDropperText
 {
